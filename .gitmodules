@@ -1,0 +1,6 @@
+[submodule "Task2/googletest"]
+	path = Task2/googletest
+	url = https://github.com/google/googletest
+[submodule "Task6/googletest"]
+	path = Task6/googletest
+	url = https://github.com/google/googletest

@@ -4,9 +4,7 @@
 
 int main()
 {
-	std::string a;
-	std::string s = input(a);
-	s = toUpper(s);
-	s = spaceDel(s);
+	std::string s = input(s);
+	s = hashtagGenerator(s);
 	output(s);
 }

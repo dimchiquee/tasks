@@ -5,7 +5,7 @@ class List final
 {
 	struct Element
 	{
-		int data;
+		int data = NULL;
 		Element* next;
 	};
 
@@ -20,7 +20,7 @@ public:
 
 	void init(int length);
 
-	void print1(std::ostream& os);
+	void print(std::ostream& os);
 
 	void add(char x);
 };

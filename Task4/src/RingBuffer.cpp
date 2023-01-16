@@ -1,6 +1,21 @@
 #include <iostream>
 #include "RingBuffer/RingBuffer.h"
 
+    struct Element
+    {
+        int data = NULL;
+        Element* next;
+    };
+    Element* head;
+    Element* tmp;
+
+    List::List()
+    {
+
+        head = NULL;
+        tmp = head;
+    };
+
     void List::init(int length)
     {
         head = new Element;

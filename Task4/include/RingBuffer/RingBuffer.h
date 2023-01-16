@@ -3,20 +3,8 @@
 
 class List final 
 {
-	struct Element
-	{
-		int data = NULL;
-		Element* next;
-	};
-
 public:
-	List()
-	{
-		head = NULL;
-		tmp = head;
-	}
-	Element* head;
-	Element* tmp;
+	List();
 
 	void init(int length);
 
@@ -24,3 +12,4 @@ public:
 
 	void add(char x);
 };
+

@@ -4,3 +4,6 @@
 [submodule "Task6/googletest"]
 	path = Task6/googletest
 	url = https://github.com/google/googletest
+[submodule "Task3/googletest"]
+	path = Task3/googletest
+	url = https://github.com/google/googletest.git
